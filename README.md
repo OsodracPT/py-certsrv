@@ -5,5 +5,5 @@ This is a simple litle Python script for the certsrv page (Microsoft AD Certific
 ### Requirements 🧱
 
 - Python
-- [python-ntlm package](https://pypi.org/project/python-ntlm/)
+- requests + [requests-ntlm]([https://pypi.org/project/python-ntlm/](https://pypi.org/project/requests-ntlm/))
 - Filled request.cfg and CSR files
