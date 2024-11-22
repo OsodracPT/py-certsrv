@@ -33,7 +33,7 @@ Prepare request.cfg with CN and [alt_names] sections.
 Run the script:
 
 ```
-./py-certsrv.py request.cfg
+python3 py-certsrv.py request.cfg
 ```
 
 Enter the certificate template (optional).
