@@ -1,0 +1,19 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = req_ext
+prompt = no
+
+[req_distinguished_name]
+C   = PT
+ST  = Sate
+L   = Location
+O   = Organization
+CN  = domain.local
+
+[req_ext]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = SERVERNAME.domain.local
+DNS.2 = SERVERNAME
+DNS.3 = Additional aliases...
